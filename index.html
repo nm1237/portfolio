@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noelle Martell | Data Science Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">NM</a>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="hero-greeting">Hey, I'm</p>
+            <h1>Noelle Martell</h1>
+            <div class="hero-typed-wrapper">
+                <span class="hero-typed" id="typed-text"></span><span class="typed-cursor">|</span>
+            </div>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                <a href="#projects" class="btn btn-secondary">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-animate>About Me</h2>
+            <div class="about-content" data-animate>
+                <p>
+                    I'm a first-year masters student at Georgetown University studying Data Science and Analytics, graduating in May 2027. With a background in natural sciences, I'm drawn to using technology to tackle research problems that matter. My interdisciplinary experience has made me adaptable, and I'm actively looking for opportunities to build technical skills and apply them to real-world challenges.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title" data-animate>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-animate>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="edu-header">
+                            <img src="images/GU.jpg" alt="Georgetown University" class="school-logo">
+                            <div>
+                                <h3>Georgetown University</h3>
+                                <h4>M.S. Data Science and Analytics</h4>
+                            </div>
+                        </div>
+                        <p class="timeline-date">Expected May 2027 | Washington, DC</p>
+                        <p><strong>Relevant Coursework:</strong> Data Science & Analytics, Geographic Information Systems,
+                        Probabilistic Modeling & Statistical Computing</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-animate>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="edu-header">
+                            <img src="images/OU.png" alt="Oakwood University" class="school-logo">
+                            <div>
+                                <h3>Oakwood University</h3>
+                                <h4>B.S. Biochemistry</h4>
+                            </div>
+                        </div>
+                        <p class="timeline-date">Aug 2020 - May 2024 | Huntsville, AL</p>
+                        <p><strong>Relevant Coursework:</strong> Computer Science I w/C++, Calculus I & II, Linear Algebra,
+                        Biochemistry I & II, Cellular & Molecular Biology</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-animate>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category" data-animate data-color="violet">
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">R</span>
+                        <span class="tag">C/C++</span>
+                        <span class="tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category" data-animate data-color="coral">
+                    <h3>Python Libraries</h3>
+                    <div class="skill-tags">
+                        <span class="tag">pandas</span>
+                        <span class="tag">numpy</span>
+                        <span class="tag">scikit-learn</span>
+                        <span class="tag">scipy</span>
+                        <span class="tag">matplotlib</span>
+                        <span class="tag">seaborn</span>
+                        <span class="tag">geopandas</span>
+                        <span class="tag">pytorch</span>
+                        <span class="tag">tensorflow</span>
+                    </div>
+                </div>
+                <div class="skill-category" data-animate data-color="yellow">
+                    <h3>R Packages</h3>
+                    <div class="skill-tags">
+                        <span class="tag">tidyverse</span>
+                        <span class="tag">ggplot2</span>
+                        <span class="tag">sf</span>
+                        <span class="tag">spatstat</span>
+                        <span class="tag">leaflet</span>
+                        <span class="tag">caret</span>
+                    </div>
+                </div>
+                <div class="skill-category" data-animate data-color="teal">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Git/GitHub</span>
+                        <span class="tag">QGIS</span>
+                        <span class="tag">Jupyter</span>
+                        <span class="tag">MATLAB</span>
+                        <span class="tag">Quarto</span>
+                        <span class="tag">RMarkdown</span>
+                    </div>
+                </div>
+                <div class="skill-category" data-animate data-color="violet">
+                    <h3>Core Competencies</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Spatial Data Analysis</span>
+                        <span class="tag">Statistical Modeling</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">Data Visualization</span>
+                        <span class="tag">Monte Carlo Simulation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-animate>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-animate>
+                    <div class="project-img">
+                        <img src="images/GIScover.jpg" alt="Map visualization of MARTA station distribution and racial demographics in Metro Atlanta">
+                    </div>
+                    <h3>Riding the Color Line: MARTA Distribution & Racial Segregation in Metro Atlanta</h3>
+                    <p class="project-tech">R | sf | spatstat | spdep | Quarto | Spatial Analysis | Monte Carlo Simulation</p>
+                    <p>A spatial analysis exploring whether MARTA rail station placement in Metro Atlanta correlates with racial demographics beyond what population density or employment patterns would predict. Uses point pattern analysis, Moran's I spatial autocorrelation, and Monte Carlo simulations to quantify how historical exclusionary decision-making shaped persistent transit infrastructure inequalities.</p>
+                    <div class="project-links">
+                        <a href="https://nm1237.github.io/DSAN6750_project/" target="_blank" rel="noopener noreferrer" class="project-link">View Project &rarr;</a>
+                        <a href="https://github.com/nm1237/DSAN6750_project" target="_blank" rel="noopener noreferrer" class="project-link">GitHub Repo &rarr;</a>
+                    </div>
+                </div>
+                <div class="project-card" data-animate>
+                    <div class="project-img">
+                        <img src="images/cover2.webp" alt="Data visualization of movie box office profitability predictions">
+                    </div>
+                    <h3>Hollywood's $100 Million Gamble: Can AI Predict Box Office Hits?</h3>
+                    <p class="project-tech">Python | Pandas | Scikit-learn | Matplotlib | Seaborn | Random Forest | Gradient Boosting | K-Means Clustering | PCA | API Integration | Quarto</p>
+                    <p>A predictive analysis of 2,691 films from The Movie Database, exploring whether pre-release information alone can forecast box office profitability. Combines features like budget, cast popularity, genre, and release timing to achieve 77.7% accuracy and identifies four distinct types of successful movies with different risk-return profiles.</p>
+                    <div class="project-links">
+                        <a href="https://nm1237.github.io/DSAN5000_project/" target="_blank" rel="noopener noreferrer" class="project-link">View Project &rarr;</a>
+                        <a href="https://github.com/nm1237/DSAN5000_project" target="_blank" rel="noopener noreferrer" class="project-link">GitHub Repo &rarr;</a>
+                    </div>
+                </div>
+                <div class="project-card" data-animate>
+                    <div class="project-img">
+                        <img src="images/cover3.webp" alt="Voter turnout analysis across U.S. states">
+                    </div>
+                    <h3>Socioeconomic and Structural Determinants of Voter Turnout in U.S. Elections</h3>
+                    <p class="project-tech">R | Quarto | tidyverse | ggplot2 | Plotly | ARIMA Modeling | Time Series Analysis | Hypothesis Testing</p>
+                    <p>An analysis of whether economic and social conditions like unemployment, housing costs, crime, and income are stronger predictors of voting participation than civic engagement alone. Examines turnout patterns across six politically diverse U.S. states spanning 23 election cycles from 1980 to 2024.</p>
+                    <div class="project-links">
+                        <a href="https://nko123.github.io/DSAN-5100-Final-Project/" target="_blank" rel="noopener noreferrer" class="project-link">View Project &rarr;</a>
+                        <a href="https://github.com/nko123/DSAN-5100-Final-Project" target="_blank" rel="noopener noreferrer" class="project-link">GitHub Repo &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-animate>Research & Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card" data-animate>
+                    <div class="edu-header">
+                        <img src="images/CMU.png" alt="Carnegie Mellon University" class="school-logo">
+                        <div>
+                            <h3>Carnegie Mellon University</h3>
+                            <h4>Data Analytics for Science Immersion Experience</h4>
+                        </div>
+                    </div>
+                    <p class="experience-date">May 2024</p>
+                    <ul>
+                        <li>Selected for competitive 2-week intensive program with 30+ hours of curriculum in statistical
+                        analysis, machine learning, and data science applications</li>
+                        <li>Developed foundational proficiency in Python and R programming through hands-on technical
+                        workshops and exercises</li>
+                        <li>Networked with data science professionals from Dow, Accenture, and Pittsburgh Supercomputing
+                        Center to explore career pathways</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card" data-animate>
+                    <div class="edu-header">
+                        <img src="images/UNC.png" alt="The University of North Carolina at Chapel Hill" class="school-logo">
+                        <div>
+                            <h3>The University of North Carolina at Chapel Hill</h3>
+                            <h4>Research Fellow, Carolina Summer Fellowship</h4>
+                        </div>
+                    </div>
+                    <p class="experience-date">May 2022 - July 2022</p>
+                    <p class="project-title"><em> Project: Retrieval of ethanol-induced conditioned taste aversion increases c-Fos
+                    expression in the insular cortex</em></p>
+                    <ul>
+                        <li>Designed and executed 10-week independent neuroscience research project investigating neural
+                        mechanisms underlying alcohol use disorders</li>
+                        <li>Discovered increased c-Fos expression in insular cortex during taste aversion retrieval (p=0.074),
+                        providing evidence for insular cortex involvement in alcohol aversion learning</li>
+                        <li>Performed advanced techniques including stereotaxic surgery, immunohistochemistry, and analyzed
+                        fluorescence microscopy images using custom MATLAB cell-counting scripts</li>
+                        <li>Presented research findings to 100+ faculty and student researchers at university-wide summer
+                        research symposium</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-animate>Let's Connect</h2>
+            <div class="contact-content" data-animate>
+                <div class="contact-links">
+                    <a href="mailto:nm1237@georgetown.edu" class="contact-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        nm1237@georgetown.edu
+                    </a>
+                    <a href="https://www.linkedin.com/in/noelle-martell-58500930a/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/nm1237" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
