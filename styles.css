@@ -628,7 +628,7 @@ section {
 .project-card:nth-child(1) { border-top-color: var(--teal); }
 .project-card:nth-child(2) { border-top-color: var(--accent); }
 .project-card:nth-child(3) { border-top-color: #3b82f6; }
-.project-card:nth-child(4) { border-top-color: var(--teal); }
+.project-card:nth-child(4) { border-top-color: #dc2626; }
 
 .project-card:hover {
     transform: translateY(-6px);
