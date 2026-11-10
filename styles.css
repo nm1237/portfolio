@@ -630,6 +630,7 @@ section {
 .project-card:nth-child(3) { border-top-color: #3b82f6; }
 .project-card:nth-child(4) { border-top-color: #dc2626; }
 .project-card:nth-child(5) { border-top-color: var(--primary); }
+.project-card:nth-child(6) { border-top-color: #a8b173; }
 
 .project-card:hover {
     transform: translateY(-6px);
